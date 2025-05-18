@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="projectstyles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOSDream-public - vertis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0d0d0d;
+      color: #f4f4f4;
+      padding: 40px;
+      animation: fadeIn 0.7s ease;
+    }
+
+    a {
+      color: #89a4af;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #1a1a1a;
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 6px;
+      margin: 20px 0;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    section {
+      display: flex;
+      justify-content: center;
+      gap: 10px; /* Adds spacing between the images */
+    }
+
+    .image-with-border {
+      width: 45%; /* Adjust the size of the images */
+      height: auto; /* Maintain the aspect ratio */
+      object-fit: contain; /* Prevent stretching */
+    }
+
+    .small-image {
+      width: 20%; /* Adjust the size as needed */
+      height: auto; /* Maintain the aspect ratio */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>DOSDream-public</h1>
+    <p>DOSDream is a general content manager for myself. Public is a repository for my small, released public code.</p> <br>
+          <a href="https://github.com/dipher34/DOSDream-public" class="btn-border-to-line-text btn-border-to-line-text--gray">
+        <svg width="100%" height="100%">
+          <rect x="0" y="0" fill="none" width="100%" height="100%" />
+        </svg>
+        GITHUB
+      </a>
+      <br> <br> 
+      <br>
+      <img src="https://raw.githubusercontent.com/dipher34/DOSDream-public/main/Resources/Readme/Example.png" alt="img1" class="image-with-border" style="width: 100%; height: auto;">
+      <div style="width: 7%; height: 2px; background-color: rgb(255, 255, 255); margin: 20px auto;"></div>
+      <img src="https://raw.githubusercontent.com/dipher34/DOSDream-public/main/Resources/Readme/Example.gif" alt="img1" class="image-with-border" style="margin: 20px auto; width: 50%; height: auto;">
+    <div style="width: 7%; height: 2px; background-color: rgb(255, 255, 255); margin: 20px auto;"></div>
+    <p><a href="index.html#projects">← Back to Portfolio</a></p>
+  </div>
+</body>
+</html>
